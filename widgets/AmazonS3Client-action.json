@@ -1,7 +1,8 @@
 {
   "metadata": {
-    "spec-version": "1.4"
+    "spec-version": "1.5"
   },
+  "display-name": "Amazon S3 Client",
   "configuration-groups": [
     {
       "label": "Required Options",
