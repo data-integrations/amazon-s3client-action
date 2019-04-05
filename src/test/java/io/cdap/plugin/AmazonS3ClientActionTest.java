@@ -14,22 +14,21 @@
  * the License.
  */
 
-package co.cask.hydrator.plugin;
+package io.cdap.plugin;
 
-import co.cask.cdap.etl.mock.action.MockActionContext;
-import co.cask.cdap.etl.mock.common.MockPipelineConfigurer;
 import com.amazonaws.regions.Regions;
+import io.cdap.cdap.etl.mock.action.MockActionContext;
+import io.cdap.cdap.etl.mock.common.MockPipelineConfigurer;
 import org.junit.ClassRule;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.io.FileFilter;
 import java.net.URL;
 import java.util.regex.Pattern;
-
-import static org.junit.Assert.assertEquals;
 
 /**
  * Unit tests for {@link AmazonS3ClientAction}
