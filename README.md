@@ -60,9 +60,9 @@ You can deploy your plugins using the CDAP CLI:
 
     > load artifact <target/plugin.jar> config-file <target/plugin.json>
 
-For example, here if your artifact is named 'azure-decompress-action-1.0.0.jar':
+For example, using the artifact names generated in the Maven build:
 
-    > load artifact target/azure-decompress-action-1.0.0.jar config-file target/azure-decompress-action-1.0.0.json
+    > load artifact target/amazon-s3client-action-1.0.0.jar config-file target/amazon-s3client-action-1.0.0.json
 
 ## Mailing Lists
 
